@@ -34,6 +34,7 @@ function onFormSubmit(evt) {
     // clear form
     evt.currentTarget.reset();
     localStorage.removeItem(STORAGE_KEY);
+    // print object to console
     console.log(formData);
 }
 
